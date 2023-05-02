@@ -1,0 +1,19 @@
+2023-05-02 22:54:18 INFO  Log:13 - =====================================Baseclass TEST START=========================================
+2023-05-02 22:54:18 INFO  Log:30 - Launch the Browser
+2023-05-02 22:54:20 INFO  Log:30 - Launch the URL
+2023-05-02 22:54:22 INFO  Log:13 - =====================================loginTest TEST START=========================================
+2023-05-02 22:54:22 INFO  Log:30 - Enter the Email id
+2023-05-02 22:54:22 INFO  Log:30 - Enter the Password
+2023-05-02 22:54:22 INFO  Log:30 - Click on login button
+2023-05-02 22:54:25 INFO  Log:30 - Assertion Check
+2023-05-02 22:54:25 INFO  Log:30 - Login Success
+2023-05-02 22:54:25 INFO  Log:20 - =====================================loginTest TEST END=========================================
+2023-05-02 22:54:25 INFO  Log:30 - Close the Browser
+2023-05-02 22:54:25 INFO  Log:20 - =====================================Baseclass TEST END=========================================
+2023-05-02 22:54:25 INFO  Log:13 - =====================================Baseclass TEST START=========================================
+2023-05-02 22:54:25 INFO  Log:30 - Launch the Browser
+2023-05-02 22:54:27 INFO  Log:30 - Launch the URL
+2023-05-02 22:54:29 INFO  Log:13 - =====================================Zonaladmin TEST START=========================================
+2023-05-02 22:54:29 INFO  Log:30 - Click on the Master
+2023-05-02 22:54:31 INFO  Log:30 - Close the Browser
+2023-05-02 22:54:31 INFO  Log:20 - =====================================Baseclass TEST END=========================================
