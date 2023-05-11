@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+  <test thread-count="2" name="Test">
     <classes>
-      <class name="com.adama.testcases.Login"/>
-      <class name="com.adama.testcases.Zonal"/>
+      <class name="com.adama.testcases.Login"/> 
+      <class name="com.adama.testcases.Zonal" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

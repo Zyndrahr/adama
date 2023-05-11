@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
-
 import com.adama.testcases.Baseclass;
 
 public class Login_pageobjects extends Baseclass
@@ -14,7 +13,7 @@ public class Login_pageobjects extends Baseclass
 	
 	@FindBy (xpath = "//input[@placeholder='E-mail']")
 	@CacheLookup
-	private WebElement Emailfield;
+	public WebElement Emailfield;
 
 	@FindBy (xpath = "//input[@placeholder='Password']")
 	@CacheLookup
