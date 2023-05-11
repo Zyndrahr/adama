@@ -12,7 +12,7 @@ import com.adama.utilities.Log;
 public class Login extends Login_pageobjects
 
 {
-	@Test (priority = -1)
+	@Test (priority = -1, enabled = true)
 	public void loginTest() throws IOException 
 	{
 	

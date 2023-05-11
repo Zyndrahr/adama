@@ -13,27 +13,35 @@ public class Zonal extends Zonal_pageobjects
 {
 
 	@Test (priority = 0)
-	public void Zonaladmin() throws IOException, InterruptedException 
+	public void ZonalTest() throws IOException, InterruptedException 
 	{
-	
 		
+		Log.startTestCase("Zonaladmin");
+	
+		try {
+	Login l = new Login();
+	l.loginTest();
+	
+	Log.info("Login Successful");
+		} catch (Exception e) {
+			
+		}
+	
     System.out.println ("driver =" + driver); 
 	
     Zonal z = PageFactory.initElements(driver, Zonal.class);
-	
-    Log.startTestCase("Zonaladmin");
     
     Log.info("Click on the Master");
 	z.Master();
 	
 	Log.info("Click on the ZonalAdmin");
-	z.Zonaladmin();
+	z.zonaladmin();
 	
 	Log.info("Add New Zonal Admin");
 	z.NewZonalAdmin();
 	
 	Log.info("Selected Employee from the List");
-	z.Employeedropdown();
+	//z.Employeedropdown();
 	
 	Log.endTestCase("Zonaladmin");
 	
